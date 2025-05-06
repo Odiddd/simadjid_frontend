@@ -1,37 +1,37 @@
+// // // src/components/Header.js
+// // import { Bell, User, Search } from "lucide-react";
+
+// // export default function Header() {
+// //   return (
+// //     <header className="bg-green-700 text-white px-6 py-3 flex justify-between items-center shadow">
+// //       {/* Left - Page Info */}
+// //       <div className="text-sm">
+// //         <span className="opacity-80">Pages</span>
+// //         <span className="mx-1">/</span>
+// //         <span className="font-semibold">Dashboard</span>
+// //       </div>
+
+// //       {/* Right - Search & Icons */}
+// //       <div className="flex items-center gap-4">
+// //         {/* Search Bar */}
+// //         <div className="flex items-center bg-white rounded px-2 py-1 text-gray-700">
+// //           <Search size={16} className="mr-2 text-gray-500" />
+// //           <input
+// //             type="text"
+// //             placeholder="Cari"
+// //             className="outline-none bg-transparent text-sm"
+// //           />
+// //         </div>
+
+// //         {/* Icons */}
+// //         <User className="cursor-pointer" />
+// //         <Bell className="cursor-pointer" />
+// //       </div>
+// //     </header>
+// //   );
+// // }
+
 // // src/components/Header.js
-// import { Bell, User, Search } from "lucide-react";
-
-// export default function Header() {
-//   return (
-//     <header className="bg-green-700 text-white px-6 py-3 flex justify-between items-center shadow">
-//       {/* Left - Page Info */}
-//       <div className="text-sm">
-//         <span className="opacity-80">Pages</span>
-//         <span className="mx-1">/</span>
-//         <span className="font-semibold">Dashboard</span>
-//       </div>
-
-//       {/* Right - Search & Icons */}
-//       <div className="flex items-center gap-4">
-//         {/* Search Bar */}
-//         <div className="flex items-center bg-white rounded px-2 py-1 text-gray-700">
-//           <Search size={16} className="mr-2 text-gray-500" />
-//           <input
-//             type="text"
-//             placeholder="Cari"
-//             className="outline-none bg-transparent text-sm"
-//           />
-//         </div>
-
-//         {/* Icons */}
-//         <User className="cursor-pointer" />
-//         <Bell className="cursor-pointer" />
-//       </div>
-//     </header>
-//   );
-// }
-
-// src/components/Header.js
 // export default function Header() {
 //   return (
 //     <header style={{
@@ -80,27 +80,3 @@
 //     </header>
 //   );
 // }
-
-export default function Header() {
-  return (
-    <header className="bg-green-700 text-white px-6 py-3 flex justify-between items-center">
-      {/* Kiri */}
-      <div className="text-sm font-semibold tracking-wide">SI MASJID</div>
-
-      {/* Kanan */}
-      <div className="flex items-center gap-4">
-        <div className="flex items-center bg-white text-gray-600 rounded px-3 py-1">
-          🔍
-          <input
-            type="text"
-            placeholder="Cari"
-            className="ml-2 outline-none border-none text-sm"
-          />
-        </div>
-        <span>👤</span>
-        <span>🔔</span>
-      </div>
-    </header>
-  );
-}
-
